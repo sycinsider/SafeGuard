@@ -1,0 +1,338 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_btn_normal.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\setting_btn_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg2.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\location_bg2.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\add_black_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\add_black_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\setting__btn_pressed.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\setting__btn_pressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg2.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\location_bg2.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\storage_progress.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\storage_progress.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\set_item_mid_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\set_item_mid_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\et_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\et_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\change_anti_theft_pressed.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\change_anti_theft_pressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\set_item_top_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\set_item_top_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_black_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\delete_black_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg3.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\location_bg3.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\et_selected.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\et_selected.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\change_anti_theft_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\change_anti_theft_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg3.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\location_bg3.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\storage_progress.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\storage_progress.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\et_normal.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\et_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\change_anti_theft_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\change_anti_theft_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\clean_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\clean_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\function_greenbutton_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\function_greenbutton_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg4.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\location_bg4.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg1.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\location_bg1.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\load_progress_bar.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\load_progress_bar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\enter_btn_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\enter_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\grid_item_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\grid_item_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\change_anti_theft_normal.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\change_anti_theft_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\setting__btn_pressed.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\setting__btn_pressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\change_anti_theft_pressed.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\change_anti_theft_pressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\clean_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\clean_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\grid_item_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\grid_item_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\setting__btn_pressed.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\setting__btn_pressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\change_anti_theft_pressed.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\change_anti_theft_pressed.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg1.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\location_bg1.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_nomal.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\circle_nomal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\load_progress_bar.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\load_progress_bar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg4.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\location_bg4.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\change_anti_theft_normal.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\change_anti_theft_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\enter_btn_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\enter_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\add_black_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\add_black_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\enter_btn_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\enter_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\grid_item_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\grid_item_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_btn_normal.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\setting_btn_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\set_item_top_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\set_item_top_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_nomal.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\circle_nomal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg5.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\location_bg5.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\et_normal.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\et_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_btn_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\cancel_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\add_black_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\add_black_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg5.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\location_bg5.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\change_anti_theft_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\change_anti_theft_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\clean_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\clean_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\set_item_mid_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\set_item_mid_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\et_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\et_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\change_anti_theft_normal.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\change_anti_theft_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_btn_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\cancel_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_btn_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\cancel_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_selected.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\circle_selected.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\storage_progress.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\storage_progress.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\load_progress_bar.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\load_progress_bar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg3.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\location_bg3.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_btn_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\setting_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\set_item_mid_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\set_item_mid_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\function_greenbutton_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\function_greenbutton_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_btn_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\setting_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_nomal.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\circle_nomal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_selected.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\circle_selected.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_selected.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\circle_selected.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\set_item_top_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\set_item_top_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\et_selected.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\et_selected.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_black_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\delete_black_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_btn_normal.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\setting_btn_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg2.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\location_bg2.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_black_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\delete_black_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg5.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\location_bg5.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\et_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\et_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\set_item_bot_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\set_item_bot_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\et_selected.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\et_selected.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg1.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\location_bg1.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_btn_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\setting_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\et_normal.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\et_normal.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\function_greenbutton_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\function_greenbutton_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\set_item_bot_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable\\set_item_bot_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\location_bg4.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\drawable\\location_bg4.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable\\set_item_bot_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\drawable\\set_item_bot_selector.xml"
+    }
+]

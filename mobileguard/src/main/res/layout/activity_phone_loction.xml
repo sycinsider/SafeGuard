@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mobileguard.activity.AddBlackActivity" >
+
+    <TextView
+        android:id="@+id/phone_loction_title"
+        style="@style/ActionbarTheme"
+        android:text="查询归属地" />
+
+    <EditText
+        android:id="@+id/phone_loction_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/et_selector"
+        android:hint="请输入电话号码"
+        android:inputType="phone|number" />
+
+    <Button
+        android:id="@+id/phone_loction_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/enter_btn_selector"
+        android:text="查询"
+        android:textColor="@color/btn_text_color"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phone_loction_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="归属地"
+        android:textSize="18sp" />
+
+</LinearLayout>

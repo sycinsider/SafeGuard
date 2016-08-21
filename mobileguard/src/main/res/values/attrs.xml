@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SettingItemView">
+
+        <!-- 设置空间文本 -->
+        <attr name="sivtext" format="string|reference" />
+        <!-- 设置是否有开关 -->
+        <attr name="sivswitch" format="boolean" />
+        <!-- 设置背景 -->
+        <attr name="sivbg">
+            <enum name="top" value="0"></enum>
+            <enum name="middle" value="1"></enum>
+            <enum name="bottom" value="2"></enum>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ProgressView">
+
+        <!-- 设置空间文本 -->
+        <attr name="ssvtext" format="string|reference" />
+    </declare-styleable>
+
+</resources>

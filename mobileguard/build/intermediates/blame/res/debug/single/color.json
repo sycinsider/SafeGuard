@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\color\\function_greenbutton_textcolor_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\color\\function_greenbutton_textcolor_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\color\\btn_text_color.xml",
+        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\color\\btn_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\color\\btn_text_color.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\color\\btn_text_color.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\color\\function_greenbutton_textcolor_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\color\\function_greenbutton_textcolor_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\color\\function_greenbutton_textcolor_selector.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\color\\function_greenbutton_textcolor_selector.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\color\\btn_text_color.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\color\\btn_text_color.xml"
+    }
+]

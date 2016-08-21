@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/app_manager_item_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_contact" />
+
+    <TextView
+        android:id="@+id/app_manager_item_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/app_manager_item_iv"
+        android:lines="1"
+        android:text="aaa"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/app_manager_item_tv_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/app_manager_item_iv"
+        android:text="aaa"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/app_manager_item_tv_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="aaa"
+        android:textSize="15sp" />
+
+</RelativeLayout>

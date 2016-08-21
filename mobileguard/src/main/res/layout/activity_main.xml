@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mobileguard.activity.MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_top" >
+
+        <ImageView
+            android:id="@+id/main_activity_iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/heima" />
+
+        <ImageView
+            android:id="@+id/main_activity_iv_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/setting_btn_selector"
+            android:padding="6dp"
+            android:src="@drawable/setting" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_activity_iv_setting"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/main_activity_tv_title"
+            android:layout_toRightOf="@id/main_activity_iv_logo"
+            android:text="黑马手机卫士管理工具" 
+            android:textSize="18sp"/>
+        <com.example.mobileguard.view.MarQueenTextview
+            android:layout_toRightOf="@+id/main_activity_iv_logo"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_activity_tv_title" 
+            android:layout_marginRight="15dp"
+            android:text="heimaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+    <GridView
+        android:id="@+id/main_activity_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="2"
+        android:horizontalSpacing="2dp" 
+        android:verticalSpacing="5dp">
+    </GridView>
+
+</LinearLayout>

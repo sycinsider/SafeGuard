@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="process_count">false</item>
+    <item type="id" name="process_memory">false</item>
+      <item type="id" name="btn_clear">false</item>
+</resources>

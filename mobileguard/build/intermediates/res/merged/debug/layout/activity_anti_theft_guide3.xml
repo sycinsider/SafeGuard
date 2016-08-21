@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mobileguard.activity.AntiTheftGuide1Activity" >
+
+    <TextView
+        style="@style/GuideActionbarTheme"
+        android:text="3.设置安全号码" />
+
+    <TextView
+        style="@style/GuideLargeText"
+        android:text="SIM卡如果发生变化:\n就会发送报警短信给安全号码" />
+
+    <EditText
+        android:id="@+id/guide3_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="请输入安全号码" />
+
+    <Button
+       android:onClick="add"
+        style="@style/NomalButton"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="请选择安全号码" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/step_3" />
+
+        <Button
+            style="@style/GuideRightButton"
+            android:drawableRight="@drawable/next"
+            android:onClick="goNext"
+            android:text="下一步" />
+
+        <Button
+            style="@style/GuideLeftButton"
+            android:drawableLeft="@drawable/pre"
+            android:onClick="goPre"
+            android:text="上一步" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp" >
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_nomal" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_nomal" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_selected" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_nomal" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/circle_nomal" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

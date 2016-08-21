@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" xmlns:app="http://schemas.android.com/apk/res/com.example.mobileguard">
+
+    <TextView
+        style="@style/ActionbarTheme"
+        android:text="设置中心" />
+    <com.example.mobileguard.view.SettingItemView 
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/set_update"
+        app:sivtext="自动更新设置 "
+        app:sivbg="top"
+        app:sivswitch="true"/>
+    <com.example.mobileguard.view.SettingItemView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/set_guard"
+        app:sivtext="骚扰拦截设置 "
+        app:sivbg="bottom"
+        app:sivswitch="true"/>
+    <com.example.mobileguard.view.SettingItemView 
+         android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/set_location"
+        app:sivtext="归属地显示设置 "
+        app:sivbg="top"
+        app:sivswitch="true"/>
+    <com.example.mobileguard.view.SettingItemView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/set_location_themes"
+        app:sivtext="归属地风格设置 "
+        app:sivbg="bottom"
+        app:sivswitch="false"/>
+</LinearLayout>

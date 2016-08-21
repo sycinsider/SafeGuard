@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.mobileguard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mobileguard.activity.APPManagerActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/ActionbarTheme"
+            android:text="进程管理" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/clean_selector"
+            android:onClick="cleanProcess" />
+    </RelativeLayout>
+
+    <com.example.mobileguard.view.ProgressView
+        android:id="@+id/progress_manager_view_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ssvtext="进程数:" >
+    </com.example.mobileguard.view.ProgressView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <com.example.mobileguard.view.ProgressView
+        android:id="@+id/progress_manager_view_ram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ssvtext="内存:" >
+    </com.example.mobileguard.view.ProgressView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <se.emilsjolander.stickylistheaders.StickyListHeadersListView
+            android:id="@+id/progress_manager_view_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </se.emilsjolander.stickylistheaders.StickyListHeadersListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <SlidingDrawer
+                android:id="@+id/drawer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:content="@+id/content"
+                android:handle="@+id/handle" >
+
+                <LinearLayout
+                    android:id="@+id/handle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawer_bg"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/progress_manager_view_iv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp"
+                        android:src="@drawable/drawer_arrow_up" />
+
+                    <ImageView
+                        android:id="@+id/progress_manager_view_iv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/drawer_arrow_up" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/GuideLargeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="进程管理设置" />
+
+                    <com.example.mobileguard.view.SettingItemView
+                        android:id="@+id/progress_manager_view_showsys"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:sivbg="top"
+                        app:sivswitch="true"
+                        app:sivtext="显示系统进程" >
+                    </com.example.mobileguard.view.SettingItemView>
+
+                    <com.example.mobileguard.view.SettingItemView
+                        android:id="@+id/progress_manager_view_auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:sivbg="bottom"
+                        app:sivswitch="true"
+                        app:sivtext="锁屏自动清理" >
+                    </com.example.mobileguard.view.SettingItemView>
+                </LinearLayout>
+            </SlidingDrawer>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/cancel_btn_selector"
+            android:onClick="checkAll"
+            android:padding="5dp"
+            android:text="全选" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/cancel_btn_selector"
+            android:onClick="reverse"
+            android:padding="5dp"
+            android:text="反选" />
+    </LinearLayout>
+
+</LinearLayout>

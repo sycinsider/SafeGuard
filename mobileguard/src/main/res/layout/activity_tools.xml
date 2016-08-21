@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.mobileguard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        style="@style/ActionbarTheme"
+        android:text="常用工具" />
+
+    <com.example.mobileguard.view.SettingItemView
+        android:id="@+id/tools_activity_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sivbg="top"
+        app:sivswitch="false"
+        app:sivtext="号码归属地查询 " />
+
+    <com.example.mobileguard.view.SettingItemView
+        android:id="@+id/tools_activity_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:sivbg="bottom"
+        app:sivswitch="false"
+        app:sivtext="常用号码查询 " />
+
+    <com.example.mobileguard.view.SettingItemView
+        android:id="@+id/tools_activity_backup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sivbg="top"
+        app:sivswitch="false"
+        app:sivtext="短信备份 " />
+
+    <com.example.mobileguard.view.SettingItemView
+        android:id="@+id/tools_activity_restore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:sivbg="bottom"
+        app:sivswitch="false"
+        app:sivtext="常用号码查询 " />
+
+    <com.example.mobileguard.view.SettingItemView
+        android:id="@+id/tools_activity_lockmanager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sivbg="top"
+        app:sivswitch="false"
+        app:sivtext="程序锁管理 " />
+
+    <com.example.mobileguard.view.SettingItemView
+        android:id="@+id/tools_activity_lock1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:sivbg="middle"
+        app:sivswitch="true"
+        app:sivtext="程序锁服务一 " />
+
+    <com.example.mobileguard.view.SettingItemView
+        android:id="@+id/tools_activity_lock2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:sivbg="bottom"
+        app:sivswitch="true"
+        app:sivtext="程序锁服务二 " />
+
+</LinearLayout>

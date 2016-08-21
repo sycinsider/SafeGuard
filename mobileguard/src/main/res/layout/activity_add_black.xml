@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mobileguard.activity.AddBlackActivity" >
+
+    <TextView
+        android:id="@+id/add_black_title"
+        style="@style/ActionbarTheme"
+        android:text="添加黑名单" />
+
+    <TextView
+        style="@style/GuideLargeText"
+        android:text="电话号码" />
+
+    <EditText
+        android:id="@+id/add_black_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/et_selector"
+        android:hint="请输入电话号码"
+        android:inputType="phone|number" />
+
+    <TextView
+        style="@style/GuideLargeText"
+        android:text="拦截模式" />
+
+    <RadioGroup
+        android:id="@+id/add_black_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/add_black_type_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="电话拦截" />
+
+        <RadioButton
+            android:id="@+id/add_black_type_sms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="短信拦截" />
+
+        <RadioButton
+            android:id="@+id/add_black_type_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="全部拦截" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/add_black_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/enter_btn_selector"
+            android:text="确认"
+            android:textColor="@color/btn_text_color" />
+
+        <Button
+            android:id="@+id/add_black_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/cancel_btn_selector"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>

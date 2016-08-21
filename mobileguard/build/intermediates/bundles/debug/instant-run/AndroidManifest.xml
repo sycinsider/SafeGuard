@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobileguard"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        <activity
+            android:name="com.example.mobileguard.activity.LogoActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.SettingActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.AntiTheftGuide1Activity"
+            android:label="@string/title_activity_anti_theft_guide1" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.AntiTheftGuide2Activity"
+            android:label="@string/title_activity_anti_theft_guide2" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.AntiTheftGuide3Activity"
+            android:label="@string/title_activity_anti_theft_guide3" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.AntiTheftGuide4Activity"
+            android:label="@string/title_activity_anti_theft_guide4" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.AntiTheftGuide5Activity"
+            android:label="@string/title_activity_anti_theft_guide5" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.AntiTheftActivity"
+            android:label="@string/title_activity_anti_theft" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.ContactListActivity"
+            android:label="@string/title_activity_contact_list" >
+        </activity>
+        <!-- receiver -->
+        <receiver android:name="com.example.mobileguard.receiver.BootReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.mobileguard.receiver.SMSReceiver" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.example.mobileguard.receiver.UserDeviceAdminReceiver"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.mobileguard.WindowWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/process_widget_provider" />
+        </receiver>
+        <!-- service -->
+        <service android:name="com.example.mobileguard.service.GPSService" >
+        </service>
+        <service android:name="com.example.mobileguard.service.LocationService" >
+        </service>
+        <service android:name="com.example.mobileguard.service.BlackNumberService" >
+        </service>
+        <service android:name="com.example.mobileguard.service.AutoCleanService" >
+        </service>
+        <service android:name="com.example.mobileguard.service.ProtectedService" >
+        </service>
+        <service android:name="com.example.mobileguard.service.OneKeyCleanService" >
+        </service>
+        <service android:name="com.example.mobileguard.service.KillProcessService" >
+        </service>
+
+        <activity
+            android:name="com.example.mobileguard.activity.BlackListActivity"
+            android:label="@string/title_activity_black_list" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.AddBlackActivity"
+            android:label="@string/title_activity_add_black" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.TestActivity"
+            android:label="@string/title_activity_test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.ToolsActivity"
+            android:label="@string/title_activity_tools" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.PhoneLoctionActivity"
+            android:label="@string/title_activity_phone_loction" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.CommonNumActivity"
+            android:label="@string/title_activity_common_num" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.APPManagerActivity"
+            android:label="@string/title_activity_soft_manager" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.TrafficActivity"
+            android:label="@string/title_activity_traffic" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.ProcessManagerActivity"
+            android:label="@string/title_activity_process_manager" >
+        </activity>
+    </application>
+
+</manifest>

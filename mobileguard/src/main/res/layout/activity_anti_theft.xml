@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.example.mobileguard.activity.AntiTheftActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/ActionbarTheme"
+            android:text="手机防盗" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="8dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="安全卫士"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/anti_theft_tv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="123"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BDBABD" />
+
+        <RelativeLayout
+            android:id="@+id/anti_theft_rl_auto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/change_anti_theft_selector"
+            android:padding="8dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="防盗保护是否开启"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/anti_theft_iv_state"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/lock" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BDBABD" />
+
+        <RelativeLayout
+            android:id="@+id/anti_theft_rl_reset"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/change_anti_theft_selector"
+            android:padding="8dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="重新进入设置向导界面"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/GuideActionbarTheme"
+        android:background="#BDBABD"
+        android:padding="8dp"
+        android:text="功能介绍"
+        android:textSize="13sp" />
+
+    <TextView
+        style="@style/GuideSmallText"
+        android:drawableLeft="@drawable/dialog_title_default_icon"
+        android:text="GPS追踪#location#" />
+
+    <TextView
+        style="@style/GuideSmallText"
+        android:drawableLeft="@drawable/dialog_title_default_icon"
+        android:text="播放报警音乐#alarm#" />
+
+    <TextView
+        style="@style/GuideSmallText"
+        android:drawableLeft="@drawable/dialog_title_default_icon"
+        android:text="远程数据删除#wipedata#" />
+
+    <TextView
+        style="@style/GuideSmallText"
+        android:drawableLeft="@drawable/dialog_title_default_icon"
+        android:text="远程锁屏#lockscreen#" />
+
+</LinearLayout>
