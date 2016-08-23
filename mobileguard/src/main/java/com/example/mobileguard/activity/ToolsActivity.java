@@ -11,6 +11,7 @@ import com.example.mobileguard.activity.PhoneLoctionActivity;
 import com.example.mobileguard.utils.BackupUtils;
 import com.example.mobileguard.utils.BackupUtils.OnBackupListener;
 import com.example.mobileguard.utils.LogUtils;
+import com.example.mobileguard.utils.RecoverUtils;
 import com.example.mobileguard.utils.StreamUtils;
 import com.example.mobileguard.view.SettingItemView;
 
@@ -28,12 +29,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
 
-public class ToolsActivity extends Activity implements OnClickListener, OnBackupListener {
+public class ToolsActivity extends Activity implements OnClickListener, OnBackupListener, RecoverUtils.OnSmsRecoverListner {
 
     private SettingItemView tools_location;
     private SettingItemView tools_common;
     private SettingItemView tools_backup;
-    private SettingItemView tools_restore;
+    private SettingItemView tools_recover;
     private SettingItemView tools_lockmanager;
     private SettingItemView tools_lock1;
     private SettingItemView tools_lock2;
@@ -41,6 +42,7 @@ public class ToolsActivity extends Activity implements OnClickListener, OnBackup
     private FileOutputStream fos;
     private XmlSerializer serializer;
     private ContentResolver resolver;
+    private ProgressDialog dialog1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +56,7 @@ public class ToolsActivity extends Activity implements OnClickListener, OnBackup
         tools_location = (SettingItemView) findViewById(R.id.tools_activity_location);
         tools_common = (SettingItemView) findViewById(R.id.tools_activity_common);
         tools_backup = (SettingItemView) findViewById(R.id.tools_activity_backup);
-        tools_restore = (SettingItemView) findViewById(R.id.tools_activity_restore);
+        tools_recover = (SettingItemView) findViewById(R.id.tools_activity_recover);
         tools_lockmanager = (SettingItemView) findViewById(R.id.tools_activity_lockmanager);
         tools_lock1 = (SettingItemView) findViewById(R.id.tools_activity_lock1);
         tools_lock2 = (SettingItemView) findViewById(R.id.tools_activity_lock2);
@@ -65,7 +67,7 @@ public class ToolsActivity extends Activity implements OnClickListener, OnBackup
         tools_location.setOnClickListener(this);
         tools_common.setOnClickListener(this);
         tools_backup.setOnClickListener(this);
-        tools_restore.setOnClickListener(this);
+        tools_recover.setOnClickListener(this);
         tools_lockmanager.setOnClickListener(this);
         tools_lock1.setOnClickListener(this);
         tools_lock2.setOnClickListener(this);
@@ -101,6 +103,10 @@ public class ToolsActivity extends Activity implements OnClickListener, OnBackup
                  */
                 BackupUtils.smsBackup(this, this);
                 break;
+            case R.id.tools_activity_recover:
+                RecoverUtils.smsRecover(this,this);
+                break;
+
         }
 
     }
@@ -186,5 +192,31 @@ public class ToolsActivity extends Activity implements OnClickListener, OnBackup
         dialog.dismiss();
         Toast.makeText(this, "备份失败" + result, Toast.LENGTH_SHORT).show();
 
+    }
+
+    @Override
+    public void onRPre() {
+        dialog1 = new ProgressDialog(this);
+        dialog1.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+        dialog1.setMessage("短信正在恢复...");
+        dialog1.show();
+    }
+
+    @Override
+    public void onRUpdate(Integer... values) {
+        dialog1.setProgress(values[0]);
+        dialog1.setMax(values[1]);
+    }
+
+    @Override
+    public void onRSuccess() {
+        dialog1.dismiss();
+        Toast.makeText(this, "恢复成功", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onRFail(Exception result) {
+        dialog1.dismiss();
+        Toast.makeText(this, "恢复失败" + result, Toast.LENGTH_SHORT).show();
     }
 }

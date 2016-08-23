@@ -4,76 +4,16 @@
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\anim\\shake.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\popup_method_exit.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\anim\\popup_method_exit.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\cycle_7.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\anim\\cycle_7.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\popup_method_enter.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\anim\\popup_method_enter.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\next_enter.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\anim\\next_enter.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\popup_method_enter.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\anim\\popup_method_enter.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\popup_method_exit.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\anim\\popup_method_exit.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\next_enter.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\anim\\next_enter.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\cycle_7.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\anim\\cycle_7.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\next_exit.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\anim\\next_exit.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\pre_exit.xml",
-        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\anim\\pre_exit.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\pre_enter.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\anim\\pre_enter.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\pre_exit.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\anim\\pre_exit.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\shake.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\anim\\shake.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\pre_enter.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\anim\\pre_enter.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\pre_enter.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\anim\\pre_enter.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\cycle_7.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\anim\\cycle_7.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\popup_method_enter.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\anim\\popup_method_enter.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\shake.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\anim\\shake.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\next_exit.xml",
@@ -84,15 +24,11 @@
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\anim\\popup_method_exit.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\pre_exit.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\anim\\pre_exit.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\next_exit.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\anim\\next_exit.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\next_enter.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\anim\\next_enter.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\anim\\pre_exit.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\anim\\pre_exit.xml"
     }
 ]

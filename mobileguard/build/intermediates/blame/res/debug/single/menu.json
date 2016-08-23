@@ -1,158 +1,54 @@
 [
     {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\test.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\test.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\anti_theft.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\phone_loction.xml",
-        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\phone_loction.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\process_manager.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\process_manager.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\soft_manager.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\soft_manager.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\test.xml",
-        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\test.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\add_black.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\add_black.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\tools.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\tools.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\tools.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\tools.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\add_black.xml",
-        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\add_black.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\add_black.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\add_black.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide5.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide5.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\test.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\test.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide1.xml",
-        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide1.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\traffic.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\traffic.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide2.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide2.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\phone_loction.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\phone_loction.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide1.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide1.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide5.xml",
-        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide5.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide2.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide2.xml"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide5.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide5.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\tools.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\tools.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\phone_loction.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\phone_loction.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\traffic.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\traffic.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\process_manager.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\process_manager.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide.xml"
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\test.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\test.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\soft_manager.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\soft_manager.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide1.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide1.xml"
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\add_black.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\add_black.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\traffic.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\traffic.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide2.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide2.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\phone_loction.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\phone_loction.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "E:\\AndroidStudioProjects\\SafeGuard\\mobileguard\\src\\main\\res\\menu\\main.xml"
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide1.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide1.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\process_manager.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\process_manager.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\soft_manager.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\soft_manager.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\anti_theft_guide5.xml",
-        "source": "E:\\AndroidStudioProjects\\Mobileguard\\mobileguard\\src\\main\\res\\menu\\anti_theft_guide5.xml"
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\menu\\main.xml"
     }
 ]

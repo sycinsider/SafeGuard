@@ -1,5 +1,6 @@
 package com.example.mobileguard.activity;
 
+import com.example.mobileguard.CleanCacheActivity;
 import com.example.mobileguard.R;
 import com.example.mobileguard.adapter.GridAdapter;
 import com.example.mobileguard.utils.Constantset;
@@ -146,8 +147,11 @@ public class MainActivity extends Activity implements OnClickListener, OnItemCli
                 Intent intent = new Intent(this, BlackListActivity.class);
                 startActivity(intent);
                 break;
-            case 7:;
+            case 7:
                 startActivity(new Intent(this, ToolsActivity.class));
+                break;
+            case 6:
+                startActivity(new Intent(this, CleanCacheActivity.class));
                 break;
 
         }

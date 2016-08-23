@@ -37,7 +37,7 @@
         app:sivtext="短信备份 " />
 
     <com.example.mobileguard.view.SettingItemView
-        android:id="@+id/tools_activity_restore"
+        android:id="@+id/tools_activity_recover"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:sivbg="bottom"

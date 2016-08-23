@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#399AD6">
+<LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:text="左边"
+        android:id="@+id/view_segment_left"
+        android:background="@drawable/segment_left_selector"
+        android:textColor="@color/segment_text_color"/>
+
+    <TextView
+        android:clickable="true"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:id="@+id/view_segment_right"
+        android:background="@drawable/segment_right_selector"
+        android:textColor="@color/segment_text_color"/>
+</LinearLayout>
+</RelativeLayout>

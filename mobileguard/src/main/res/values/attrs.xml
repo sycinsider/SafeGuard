@@ -13,6 +13,17 @@
             <enum name="middle" value="1"></enum>
             <enum name="bottom" value="2"></enum>
         </attr>
+    </declare-styleable><declare-styleable name="SegmentView">
+
+        <!-- 设置空间文本 -->
+        <attr name="svLeftText" format="string|reference" />
+        <!-- 设置是否有开关 -->
+        <attr name="svRightText" format="string|reference" />
+        <!-- 设置背景 -->
+        <attr name="svSelected">
+            <enum name="left" value="0"></enum>
+            <enum name="right" value="1"></enum>
+        </attr>
     </declare-styleable>
     <declare-styleable name="ProgressView">
 

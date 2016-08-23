@@ -22,6 +22,7 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
 
     <application
         android:allowBackup="true"
@@ -161,6 +162,11 @@
         <activity
             android:name="com.example.mobileguard.activity.ProcessManagerActivity"
             android:label="@string/title_activity_process_manager" >
+        </activity>
+        <activity
+            android:name="com.example.mobileguard.activity.AppLockActivity"
+            android:label="AppLockActivity" />
+        <activity android:name="com.example.mobileguard.CleanCacheActivity" >
         </activity>
     </application>
 

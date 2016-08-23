@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mobileguard.CleanCacheActivity">
+
+    <TextView
+        style="@style/ActionbarTheme"
+        android:text="aa"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#399AD6">
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <RelativeLayout
+                android:id="@+id/clean_cache_running"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/scan_bg">
+
+                <ImageView
+                    android:id="@+id/clean_cache_running_icon"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_default"/>
+
+                <ImageView
+                    android:id="@+id/clean_cache_running_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/scan_line"/>
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/clean_cache_running_pb"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/clean_cache_running"
+                style="@style/StorageStatusPBStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/clean_cache_running_name"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:text="sss"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/clean_cache_running"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/clean_cache_running_size"
+                android:textSize="18sp"
+                android:layout_alignParentBottom="true"
+                android:text="aaa"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/clean_cache_running"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/clean_cache_finish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+            <Button
+                android:id="@+id/clean_cache_finish_btn"
+                android:text="aaa"
+                style="@style/NomalButton"
+                android:textSize="22sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                />
+            <TextView
+                android:id="@+id/clean_cache_finish_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaaaaaaaaaaaaa"
+                android:textSize="20sp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+    <ListView
+        android:id="@+id/clean_cache_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </ListView>
+    <Button
+        android:id="@+id/clean_cache_btn"
+        android:layout_weight="0"
+        android:layout_gravity="bottom"
+        android:text="ddd"
+        style="@style/NomalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

@@ -4,22 +4,59 @@
     api-level="22"
     density="hdpi"
     format="7"
-    timestamp="428406169658797"
-    token="-6675892852315134069" >
+    timestamp="551114827731031"
+    token="8085102078486215901" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="648" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="191" />
     <task
         name="verifier"
-        duration="0" />
+        duration="22" />
 
-    <build timestamp="428406169658797" />
+    <artifact
+        location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
+    <artifact
+        location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
+
+    <build timestamp="549169958563176" >
+        <artifact
+            location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\outputs\apk\mobileguard-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="551114827731031" >
+        <artifact
+            location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
 
 </instant-run>
