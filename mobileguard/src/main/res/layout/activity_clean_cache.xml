@@ -17,14 +17,14 @@
         android:background="#399AD6">
 
         <RelativeLayout
-            android:visibility="gone"
+            android:id="@+id/clean_cache_running"
             android:padding="8dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             >
 
             <RelativeLayout
-                android:id="@+id/clean_cache_running"
+                android:id="@+id/clean_cache_running_iv"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:background="@drawable/scan_bg">
@@ -45,30 +45,32 @@
             </RelativeLayout>
 
             <ProgressBar
+
                 android:id="@+id/clean_cache_running_pb"
                 android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@id/clean_cache_running"
+                android:layout_toRightOf="@id/clean_cache_running_iv"
                 style="@style/StorageStatusPBStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
             <TextView
                 android:id="@+id/clean_cache_running_name"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:layout_centerVertical="true"
+                android:singleLine="true"
                 android:text="sss"
                 android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@id/clean_cache_running"
+                android:layout_toRightOf="@id/clean_cache_running_iv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
             <TextView
                 android:id="@+id/clean_cache_running_size"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:layout_alignParentBottom="true"
                 android:text="aaa"
                 android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@id/clean_cache_running"
+                android:layout_toRightOf="@id/clean_cache_running_iv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </RelativeLayout>
@@ -76,7 +78,8 @@
             android:id="@+id/clean_cache_finish"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="8dp">
+            android:padding="8dp"
+            android:visibility="gone">
             <Button
                 android:id="@+id/clean_cache_finish_btn"
                 android:text="aaa"
@@ -91,14 +94,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="aaaaaaaaaaaaaa"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/clean_cache_finish_btn"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="15dp"
                 />
         </RelativeLayout>
     </FrameLayout>
     <ListView
+        android:fastScrollEnabled="true"
         android:id="@+id/clean_cache_lv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

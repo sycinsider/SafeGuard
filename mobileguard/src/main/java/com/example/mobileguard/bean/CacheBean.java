@@ -9,4 +9,5 @@ public class CacheBean {
     public Drawable icon;
     public String name;
     public long cacheSize;
+    public String pkgName;
 }
