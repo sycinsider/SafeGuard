@@ -1,4 +1,4 @@
-package com.example.mobileguard;
+package com.example.mobileguard.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -26,6 +26,7 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.example.mobileguard.R;
 import com.example.mobileguard.bean.CacheBean;
 
 import java.lang.reflect.Method;

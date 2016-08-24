@@ -1,7 +1,7 @@
 package com.example.mobileguard.activity;
 
-import com.example.mobileguard.CleanCacheActivity;
 import com.example.mobileguard.R;
+import com.example.mobileguard.VirusCleanActivity;
 import com.example.mobileguard.adapter.GridAdapter;
 import com.example.mobileguard.utils.Constantset;
 import com.example.mobileguard.utils.SpUtils;
@@ -132,26 +132,28 @@ public class MainActivity extends Activity implements OnClickListener, OnItemCli
                 antiTheft();
 
                 break;
-            case 4:
-                startActivity(new Intent(this, TrafficActivity.class));
-
-                break;
-            case 3:
-                startActivity(new Intent(this, ProcessManagerActivity.class));
-
-                break;
-            case 2:;
-                startActivity(new Intent(this, APPManagerActivity.class));
-                break;
             case 1:
                 Intent intent = new Intent(this, BlackListActivity.class);
                 startActivity(intent);
                 break;
-            case 7:
-                startActivity(new Intent(this, ToolsActivity.class));
+            case 2:
+                startActivity(new Intent(this, APPManagerActivity.class));
+                break;
+            case 3:
+                startActivity(new Intent(this, ProcessManagerActivity.class));
+                break;
+            case 4:
+                startActivity(new Intent(this, TrafficActivity.class));
+
+                break;
+            case 5:
+                startActivity(new Intent(this, VirusCleanActivity.class));
                 break;
             case 6:
                 startActivity(new Intent(this, CleanCacheActivity.class));
+                break;
+            case 7:
+                startActivity(new Intent(this, ToolsActivity.class));
                 break;
 
         }

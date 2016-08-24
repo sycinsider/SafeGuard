@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.mobileguard.VirusCleanActivity">
+
+    <TextView
+        style="@style/ActionbarTheme"
+        android:text="aa"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#399AD6">
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <com.github.lzyzsd.circleprogress.ArcProgress
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:arc_text_color="#fff"
+                app:arc_bottom_text="aaa"
+                app:arc_bottom_text_size="16sp"/>
+        </LinearLayout>
+    </FrameLayout>
+    <ListView
+        android:fastScrollEnabled="true"
+        android:id="@+id/virus_cache_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </ListView>
+</LinearLayout>
