@@ -104,12 +104,12 @@
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\ic_menu_add_normal.png"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rjgj.png",
-        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\rjgj.png"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\splash.png",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\splash.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rjgj.png",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\rjgj.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dialog_title_default_icon.png",

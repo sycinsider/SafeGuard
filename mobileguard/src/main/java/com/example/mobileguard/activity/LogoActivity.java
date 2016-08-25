@@ -87,6 +87,7 @@ public class LogoActivity extends Activity {
         }
         uncompressData();
         uncompressComNumData();
+        uncompressVirusData();
     }
 
     private void uncompressComNumData() {
@@ -108,7 +109,25 @@ public class LogoActivity extends Activity {
         }).start();
 
     }
+    private void uncompressVirusData() {
+        new Thread(new Runnable() {
 
+            @Override
+            public void run() {
+                try {
+                    InputStream in = getAssets().open("antivirus.zip");
+                    File file = new File(getFilesDir(), "antivirus.db");
+                    if (!file.exists()) {
+                        GzipUtils.uncompress(in, new FileOutputStream(file));
+                    }
+                } catch (IOException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+
+    }
     private void uncompressData() {
         new Thread(new Runnable() {
 

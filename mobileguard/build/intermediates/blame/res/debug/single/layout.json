@@ -48,6 +48,10 @@
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\layout\\black_list_item.xml"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\layout\\virus_clean_item.xml",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\layout\\virus_clean_item.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\layout\\activity_anti_theft_guide3.xml",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\layout\\activity_anti_theft_guide3.xml"
     },

@@ -1,42 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    tools:context="com.example.mobileguard.VirusCleanActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="${relativePackage}.${activityClass}" >
 
     <TextView
         style="@style/ActionbarTheme"
-        android:text="aa"/>
+        android:text="aaaaa" />
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:background="#399AD6">
+        android:layout_height="150dp"
+        android:background="#399AD6" >
+
+        <RelativeLayout
+            android:id="@+id/act_anti_virus_rl_scanning"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.github.lzyzsd.circleprogress.ArcProgress
+                android:id="@+id/act_anti_virus_pb"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="50dp"
+                custom:arc_bottom_text="aaa"
+                custom:arc_stroke_width="10dp"
+                custom:arc_text_color="#fff"
+                custom:arc_text_size="30sp" />
+
+            <TextView
+                android:id="@+id/act_anti_virus_tv_scanning_pkg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:textColor="#fff" />
+        </RelativeLayout>
 
         <LinearLayout
-            android:padding="8dp"
+            android:id="@+id/act_anti_virus_ll_scanned"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            >
-            <com.github.lzyzsd.circleprogress.ArcProgress
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                app:arc_text_color="#fff"
-                app:arc_bottom_text="aaa"
-                app:arc_bottom_text_size="16sp"/>
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/act_anti_virus_tv_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fdjslk"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/act_anti_virus_btn_rescan"
+                style="@style/NomalButton"
+                android:text="sssss" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/act_anti_virus_ll_anim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/act_anti_virus_iv_left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/act_anti_virus_iv_right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher" />
         </LinearLayout>
     </FrameLayout>
+
     <ListView
-        android:fastScrollEnabled="true"
-        android:id="@+id/virus_cache_lv"
+        android:id="@+id/act_anti_virus_lv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
-
+        android:fastScrollEnabled="true" >
     </ListView>
+
 </LinearLayout>
