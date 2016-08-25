@@ -106,6 +106,9 @@ public class ToolsActivity extends Activity implements OnClickListener, OnBackup
             case R.id.tools_activity_recover:
                 RecoverUtils.smsRecover(this,this);
                 break;
+            case R.id.tools_activity_lockmanager:
+                startActivity(new Intent(this,AppLockActivity.class));
+                break;
 
         }
 

@@ -4,27 +4,27 @@
     api-level="16"
     density="hdpi"
     format="7"
-    timestamp="35874636204390"
+    timestamp="37196561578839"
     token="8085102078486215901" >
 
     <task
         name="javac"
-        duration="507" />
+        duration="214" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="476" />
+        duration="50" />
     <task
         name="verifier"
-        duration="176" />
+        duration="13" />
 
     <artifact
         location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\outputs\apk\mobileguard-debug.apk"
         type="MAIN" />
 
-    <build timestamp="35874636204390" >
+    <build timestamp="37196561578839" >
         <artifact
             location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\outputs\apk\mobileguard-debug.apk"
             type="MAIN" />

@@ -488,7 +488,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int location_bg3=0x7f02003d;
         public static final int location_bg4=0x7f02003e;
         public static final int location_bg5=0x7f02003f;
-        public static final int lock=0x7f020040;
+        public static final int lock_selector =0x7f020040;
         public static final int main_top=0x7f020041;
         public static final int middle_normal=0x7f020042;
         public static final int middle_pressed=0x7f020043;
@@ -525,7 +525,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int step_5=0x7f020062;
         public static final int storage_progress=0x7f020063;
         public static final int szzx=0x7f020064;
-        public static final int unlock=0x7f020065;
+        public static final int unlock_selector =0x7f020065;
         public static final int widget_bg_portrait=0x7f020066;
         public static final int widget_bg_portrait_child=0x7f020067;
         public static final int widget_bg_portrait_child_divider=0x7f020068;

@@ -327,7 +327,7 @@ activity#com.example.mobileguard.activity.CleanCacheActivity
 ADDED from E:\AndroidStudioProjects\MobileGuard\mobileguard\src\main\AndroidManifest.xml:171:9-172:20
 	android:name
 		ADDED from E:\AndroidStudioProjects\MobileGuard\mobileguard\src\main\AndroidManifest.xml:171:19-62
-activity#com.example.mobileguard.VirusCleanActivity
+activity#com.example.mobileguard.activity.VirusCleanActivity
 ADDED from E:\AndroidStudioProjects\MobileGuard\mobileguard\src\main\AndroidManifest.xml:173:9-174:20
 	android:name
-		ADDED from E:\AndroidStudioProjects\MobileGuard\mobileguard\src\main\AndroidManifest.xml:173:19-53
+		ADDED from E:\AndroidStudioProjects\MobileGuard\mobileguard\src\main\AndroidManifest.xml:173:19-62

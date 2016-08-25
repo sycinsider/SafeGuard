@@ -170,7 +170,7 @@
             android:label="AppLockActivity" />
         <activity android:name="com.example.mobileguard.activity.CleanCacheActivity" >
         </activity>
-        <activity android:name="com.example.mobileguard.VirusCleanActivity" >
+        <activity android:name="com.example.mobileguard.activity.VirusCleanActivity" >
         </activity>
     </application>
 

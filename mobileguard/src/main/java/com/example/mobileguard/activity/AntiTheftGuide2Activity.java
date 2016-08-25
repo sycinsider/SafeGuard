@@ -1,22 +1,14 @@
 package com.example.mobileguard.activity;
 
-import java.net.SecureCacheResponse;
-
 import com.example.mobileguard.R;
-import com.example.mobileguard.R.drawable;
-import com.example.mobileguard.R.id;
-import com.example.mobileguard.R.layout;
 import com.example.mobileguard.utils.Constantset;
 import com.example.mobileguard.utils.SpUtils;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -50,11 +42,11 @@ public class AntiTheftGuide2Activity extends AntiTheftBaseActivity implements On
 
         String savesim = SpUtils.getString(this, Constantset.SIM_NUMBER);
         if (TextUtils.isEmpty(savesim)) {
-            Drawable drawable = getResources().getDrawable(R.drawable.unlock);
+            Drawable drawable = getResources().getDrawable(R.drawable.unlock_selector);
             drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
             bind_sim.setCompoundDrawables(null, null, drawable, null);
         } else {
-            Drawable drawable = getResources().getDrawable(R.drawable.lock);
+            Drawable drawable = getResources().getDrawable(R.drawable.lock_selector);
             drawable.setBounds(0, 0, drawable.getMinimumWidth(), drawable.getMinimumHeight());
             bind_sim.setCompoundDrawables(null, null, drawable, null);
 
@@ -96,7 +88,7 @@ public class AntiTheftGuide2Activity extends AntiTheftBaseActivity implements On
                     String simSerialNumber = manager.getSimSerialNumber();
                     if (simSerialNumber != null) {
                         SpUtils.putString(this, Constantset.SIM_NUMBER, simSerialNumber);
-                        Drawable drawable = getResources().getDrawable(R.drawable.lock);
+                        Drawable drawable = getResources().getDrawable(R.drawable.lock_selector);
                         drawable.setBounds(0, 0, drawable.getMinimumWidth(),
                                 drawable.getMinimumHeight());
                         bind_sim.setCompoundDrawables(null, null, drawable, null);
@@ -105,7 +97,7 @@ public class AntiTheftGuide2Activity extends AntiTheftBaseActivity implements On
                     }
                 } else {
                     SpUtils.putString(this, Constantset.SIM_NUMBER, null);
-                    Drawable drawable = getResources().getDrawable(R.drawable.unlock);
+                    Drawable drawable = getResources().getDrawable(R.drawable.unlock_selector);
                     drawable.setBounds(0, 0, drawable.getMinimumWidth(),
                             drawable.getMinimumHeight());
                     bind_sim.setCompoundDrawables(null, null, drawable, null);

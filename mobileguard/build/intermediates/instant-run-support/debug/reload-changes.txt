@@ -1,0 +1,4 @@
+CHANGED,E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\mobileguard\activity\MainActivity$override.class
+CHANGED,E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\mobileguard\activity\AppLockActivity$override.class
+CHANGED,E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\mobileguard\activity\ToolsActivity$override.class

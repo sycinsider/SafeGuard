@@ -19,7 +19,7 @@
         style="@style/NomalButton"
         android:layout_width="match_parent"
         android:layout_margin="10dp"
-        android:drawableRight="@drawable/unlock"
+        android:drawableRight="@drawable/unlock_selector"
         android:text="点击绑定/解绑SIM卡"
         android:gravity="left|center_vertical" />
 
