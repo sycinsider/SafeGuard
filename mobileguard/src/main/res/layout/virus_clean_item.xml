@@ -32,6 +32,7 @@
         android:id="@+id/item_virus_iv_del"
         android:layout_width="35dp"
         android:layout_height="35dp"
+        android:clickable="true"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:src="@drawable/clean_selector" />

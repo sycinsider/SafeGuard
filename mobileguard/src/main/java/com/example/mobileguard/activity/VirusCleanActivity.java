@@ -1,4 +1,4 @@
-package com.example.mobileguard;
+package com.example.mobileguard.activity;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -12,6 +12,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.Paint;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
@@ -26,7 +27,10 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
+import com.example.mobileguard.R;
 import com.example.mobileguard.bean.VirusBean;
+import com.example.mobileguard.db.VirusDao;
+import com.example.mobileguard.utils.Md5Utils;
 import com.github.lzyzsd.circleprogress.ArcProgress;
 
 import android.widget.TextView;
@@ -34,9 +38,11 @@ import android.widget.LinearLayout;
 import android.widget.ImageView;
 import android.widget.ListView;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class VirusCleanActivity extends Activity implements View.OnClickListener {
 
@@ -108,25 +114,31 @@ public class VirusCleanActivity extends Activity implements View.OnClickListener
 
         @Override
         protected Void doInBackground(Void... params) {
-            List<ApplicationInfo> list = pm.getInstalledApplications(0);
-            max = list.size();
-            Random random = new Random();
-            for (ApplicationInfo info :
-                    list) {
-                if (!isFocused) {
-                    break;
+            try {
+                List<ApplicationInfo> list = pm.getInstalledApplications(0);
+                max = list.size();
+                for (ApplicationInfo info :
+                        list) {
+                    if (!isFocused) {
+                        break;
+                    }
+                    VirusBean bean = new VirusBean();
+                    bean.name = pm.getApplicationLabel(info).toString();
+                    bean.pkgName = info.packageName;
+                    bean.icon = pm.getApplicationIcon(info);
+                    String sourceDir = info.sourceDir;
+                    File file = new File(sourceDir);
+                    String md5 = Md5Utils.encode(new FileInputStream(file));
+                    if (bean.pkgName.equals(getPackageName())) {
+                       md5="ac365eeb5595554d67975ad61003e48e";
+                    }
+                    boolean virus = VirusDao.isVirus(VirusCleanActivity.this, md5);
+                    bean.isVirus = virus;
+                    publishProgress(bean);
+                    SystemClock.sleep(100);
                 }
-                VirusBean bean = new VirusBean();
-                bean.name = pm.getApplicationLabel(info).toString();
-                bean.pkgName = info.packageName;
-                bean.icon = pm.getApplicationIcon(info);
-                if (random.nextInt() % 2 == 0) {
-                    bean.isVirus = true;
-                } else {
-                    bean.isVirus = false;
-                }
-                publishProgress(bean);
-                SystemClock.sleep(100);
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
             }
             return null;
         }
@@ -337,7 +349,7 @@ public class VirusCleanActivity extends Activity implements View.OnClickListener
             return convertView;
         }
 
-        private void initializeViews(VirusBean bean, ViewHolder holder) {
+        private void initializeViews(final VirusBean bean, ViewHolder holder) {
             holder.itemVirusIcon.setImageDrawable(bean.icon);
             holder.itemVirusTvName.setText(bean.name);
             if (bean.isVirus) {
@@ -349,6 +361,17 @@ public class VirusCleanActivity extends Activity implements View.OnClickListener
                 holder.itemVirusTvIsVirus.setTextColor(Color.GREEN);
                 holder.itemVirusIvDel.setVisibility(View.GONE);
             }
+            holder.itemVirusIvDel.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent();
+                    intent.setAction(
+                            "android.settings.APPLICATION_DETAILS_SETTINGS");
+                    intent.addCategory("android.intent.category.DEFAULT");
+                    intent.setData(Uri.parse("package:" + bean.pkgName));
+                    startActivity(intent);
+                }
+            });
         }
 
         protected class ViewHolder {

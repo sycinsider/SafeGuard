@@ -28,12 +28,12 @@
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\function_greenbutton_normal.9.png"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\first_normal.9.png",
-        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\first_normal.9.png"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_share.png",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\ic_share.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\first_normal.9.png",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\first_normal.9.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\step_3.png",
@@ -60,12 +60,12 @@
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\ic_default.png"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_bg_portrait_child.9.png",
-        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\widget_bg_portrait_child.9.png"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\admin_inactivated.png",
         "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\admin_inactivated.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_bg_portrait_child.9.png",
+        "source": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\src\\main\\res\\drawable-hdpi\\widget_bg_portrait_child.9.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MobileGuard\\mobileguard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",

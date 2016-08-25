@@ -1,7 +1,6 @@
 package com.example.mobileguard.activity;
 
 import com.example.mobileguard.R;
-import com.example.mobileguard.VirusCleanActivity;
 import com.example.mobileguard.adapter.GridAdapter;
 import com.example.mobileguard.utils.Constantset;
 import com.example.mobileguard.utils.SpUtils;

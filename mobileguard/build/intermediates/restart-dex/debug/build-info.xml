@@ -1,40 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="22"
+    api-level="16"
     density="hdpi"
     format="7"
-    timestamp="24071705445252"
+    timestamp="35874636204390"
     token="8085102078486215901" >
 
     <task
         name="javac"
-        duration="244" />
+        duration="507" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="476" />
     <task
         name="verifier"
-        duration="3" />
+        duration="176" />
 
     <artifact
-        location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
+        location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\outputs\apk\mobileguard-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="20796198649995" >
-        <artifact
-            location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="24071705445252" >
-        <artifact
-            location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="739078889638364" >
+    <build timestamp="35874636204390" >
         <artifact
             location="E:\AndroidStudioProjects\MobileGuard\mobileguard\build\outputs\apk\mobileguard-debug.apk"
             type="MAIN" />
